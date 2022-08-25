@@ -1,0 +1,38 @@
+.review {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.review__list {
+  display: flow-root;
+}
+
+.customers {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.customers:last-child {
+  margin-bottom: 0;
+}
+
+.customers__figure {
+  float: left;
+}
+
+.customers__figcaption {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 60px;
+}
+
+.customers__decs {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 680px;
+  margin-left: 310px;
+  padding-top: 45px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}

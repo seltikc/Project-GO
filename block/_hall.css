@@ -1,0 +1,79 @@
+.hall {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flow-root;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hall__title {
+  margin-bottom: 60px;
+}
+
+.hall__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hall__item {
+  text-align: center;
+  min-width: 570px;
+  height: 349px;
+  float: left;
+}
+
+.hall__item:last-child {
+  margin-left: 0;
+}
+
+.hall__item:not(:nth-child(2n)) {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.hall__item_img1 {
+  background: url("../img/80s_vibes.png") center no-repeat;
+}
+
+.hall__item_img2{
+  background: url("../img/start-wars.png") center no-repeat;
+}
+
+.hall__item_img3 {
+  background: url("../img/wild-west.png") center no-repeat;
+}
+
+.hall__item_img4 {
+  background: url("../img/neon.png") center no-repeat;
+}
+
+.hall__desc {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

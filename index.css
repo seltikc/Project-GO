@@ -1,0 +1,10 @@
+@import "./block/style.css";
+@import "./block/_hall.css";
+@import "./block/_game.css";
+@import "./block/_questions.css";
+@import "./block/_forms.css";
+@import "./block/_review.css";
+@import "./block/_about.css";
+@import "./block/_contact.css";
+@import "./block/_social.css";
+@import "./block/_footer.css";
