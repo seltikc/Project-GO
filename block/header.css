@@ -1,0 +1,40 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 29px;
+}
+
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  justify-content: center;
+}
+
+.header__item {
+  margin-right: 40px;
+}
+
+.header__link {
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__btn {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  background-color: inherit;
+  border: 2px solid #CD06FF;
+  border-radius: 10px;
+  color: #fff;
+  padding: 12px 32px;
+}

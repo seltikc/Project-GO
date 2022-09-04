@@ -1,0 +1,63 @@
+.rest {
+  padding: 50px 0;
+}
+
+.rest__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 41px;
+}
+
+.rest__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rest__item {
+  flex-basis: 380px;
+}
+
+.rest__text {
+  display: flex;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  padding-top: 170px;
+  padding-left: 40px;
+}
+
+.rest__item {
+  content: "";
+  display: block;
+  width: 100%;
+  min-height: 228px;
+}
+
+
+.rest__item_vr {
+background-image: url("../img/rest/vr.png");
+}
+
+.rest__item_disco {
+background-image: url("../img/rest/disco.png");
+}
+
+.rest__item_sings {
+background-image: url("../img/rest/sings.png");
+}
+
+.rest__item_table {
+background-image: url("../img/rest/table-games.png");
+}
+
+.rest__item_netflix {
+background-image: url("../img/rest/netflix.png");
+}
+
+.rest__item_games {
+background-image: url("../img/rest/games.png");
+}

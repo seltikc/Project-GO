@@ -1,7 +1,7 @@
 .game {
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 700px;
+  padding-top: 29px;
+  padding-bottom: 200px;
 }
 
 .game:before {
@@ -11,8 +11,8 @@
   display: block;
   width: 675px;
   height: 762px;
-  top: 165px;
-  right: 340px;
+  top: 90px;
+  right: 261px;
   z-index: 0;
 }
 
@@ -29,5 +29,59 @@
   font-size: 28px;
   line-height: 50px;
   margin-left: 100px;
+  margin-bottom: 30px;
 }
+
+.game__flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 150px;
+}
+
+.game__four, .game__new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game__four {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 141px;
+  max-width: 193px;
+  color: #CD06FF;
+}
+
+.game__new {
+  font-weight: 900;
+  font-size: 75px;
+  line-height: 106px;
+  text-transform: uppercase;
+  max-width: 193px;
+  color: #CD06FF;
+  padding-top: 25px;
+}
+
+.game__text-hall, .game__text-new {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+  color: #ffffff;
+}
+
+.game__btn {
+  background: #6C0287;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 25px 69px;
+  border: none;
+}
+
+
 

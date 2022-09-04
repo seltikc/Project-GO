@@ -1,6 +1,8 @@
+@import "./block/header.css";
+@import "./block/game.css";
+@import "./block/rest.css";
 @import "./block/style.css";
 @import "./block/hall.css";
-@import "./block/game.css";
 @import "./block/questions.css";
 @import "./block/forms.css";
 @import "./block/review.css";
