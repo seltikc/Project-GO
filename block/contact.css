@@ -13,14 +13,16 @@
 }
 
 .contact__item {
+  display: flex;
+  flex-direction: column;
   padding-left: 60px;
   background-repeat: no-repeat;
-  background-position: left;
   margin-bottom: 15px;
 }
 
 .contact__item_location {
   background-image: url("../img/location.svg");
+  background-position: left;
 }
 
 .contact__item_phone {
@@ -46,4 +48,13 @@
   color: #ffffff;
 }
 
+.container-img {
+  position: relative;
+}
+
+.contact__map {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 

@@ -3,6 +3,11 @@
 @import "./block/rest.css";
 @import "./block/style.css";
 @import "./block/hall.css";
+@import "./block/room.css";
+@import "./block/prefix.css";
+@import "./block/table.css";
+@import "./block/add.css";
+@import "./block/data.css";
 @import "./block/questions.css";
 @import "./block/forms.css";
 @import "./block/review.css";

@@ -2,24 +2,25 @@
 .about {
   padding-bottom: 50px;
   padding-top: 50px;
-  display: flow-root;
 }
 
 .container-bg {
   background: url("../img/photos.png") no-repeat;
   min-height: 596px;
   min-width: 600px;
-  display: inline-block;
-  float: left;
 }
 
 .about__description {
-  float: right;
   max-width: 500px;
 
 }
 .about__title {
   margin-bottom: 50px;
+}
+
+.about__flex {
+  display: flex;
+  gap: 80px;
 }
 
 .about__text {

@@ -1,7 +1,6 @@
 .hall {
   padding-top: 50px;
   padding-bottom: 50px;
-  display: flow-root;
 }
 
 .subtitle {
@@ -17,26 +16,18 @@
 }
 
 .hall__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 .hall__item {
+  flex-basis: 580px;
+  min-height: 349px;
   text-align: center;
-  min-width: 570px;
-  height: 349px;
-  float: left;
-}
-
-.hall__item:last-child {
-  margin-left: 0;
-}
-
-.hall__item:not(:nth-child(2n)) {
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 10px;
 }
 
 .hall__item_img1 {
@@ -56,11 +47,12 @@
 }
 
 .hall__desc {
+  display: inline-flex;
+  text-align: center;
   font-weight: 700;
   font-size: 70px;
   line-height: 80px;
   text-transform: uppercase;
-  text-align: center;
   padding-top: 150px;
 }
 

@@ -1,0 +1,48 @@
+.room {
+  border: none;
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+.room__legend {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.room__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room__label {
+  flex-basis: 250px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 7px 0;
+  border-radius: 8px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.room__label:hover {
+  background-color: rgba(255, 214, 6, 0.8);
+}
+
+.room__label:focus {
+  background-color: rgba(255, 214, 6, 0.6);
+}
+
+.room__label:active {
+  background-color: rgba(255, 214, 6, 0.6);
+}
+
+
+

@@ -9,6 +9,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 41px;
+  max-width: 980px;
 }
 
 .rest__list {

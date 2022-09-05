@@ -71,121 +71,136 @@
   <section class="forms">
     <div class="container">
       <form class="form" action = "https://jsonplaceholder.typicode.com/posts" method="post">
-        <h2 class="subtitle form-title" id="book">Забронировать</h2>
+        <h2 class="subtitle form-title" id="book">Забронировать зал просто</h2>
 
-        <fieldset>
-          <legend>Выбери зал</legend>
-          <label class="label">
-            <input type="radio" name="gamer" value="`vibes">80's vibes
-          </label>
+        <fieldset class="room">
+          <legend class="room__legend">Выбери зал</legend>
 
-          <label class="label">
-            <input type="radio" name="gamer" value="`wars">star wars
-          </label>
+          <div class="room__flex">
+            <label class="room__label">
+              <input class="room__input visually-hidden" type="radio" name="gamer" value="`vibes">80's vibes
+            </label>
 
-          <label class="label">
-            <input type="radio" name="gamer" value="wild">wild west
-          </label>
+            <label class="room__label">
+              <input class="room__input visually-hidden" type="radio" name="gamer" value="`wars">star wars
+            </label>
 
-          <label class="label">
-            <input type="radio" name="gamer" value="neon">neon style
-          </label>
+            <label class="room__label">
+              <input class="room__input visually-hidden" type="radio" name="gamer" value="wild">wild west
+            </label>
 
+            <label class="room__label">
+              <input class="room__input visually-hidden" type="radio" name="gamer" value="neon">neon style
+            </label>
+          </div>
         </fieldset>
 
-        <fieldset>
-          <legend>Собери набор развлечений</legend>
+        <fieldset class="prefix-fieldset">
+          <legend class="prefix__legend room__legend">Собери набор развлечений</legend>
 
-          <fieldset>
+          <fieldset class="prefix">
+            <legend class="prefix__legend">Приставка:</legend>
+            <div class="prefix__flex">
 
-            <legend>Приставка</legend>
-            <label class="label">
-              <input type="radio" name="games" value="playstation">PlayStation
-            </label>
+              <label class="prefix__label">
+                <input class="prefix__input" type="radio" name="games" value="playstation"><span class="prefix__span">PlayStation</span>
+              </label>
 
-            <label class="label">
-              <input type="radio" name="games" value="sega">Sega Mega Drive
-            </label>
+              <label class="prefix__label">
+                <input class="prefix__input" type="radio" name="games" value="sega"><span class="prefix__span">Sega Mega Drive</span>
+              </label>
 
-            <label class="label">
-              <input type="radio" name="games" value="x-box">X-box One S
-            </label>
+              <label class="prefix__label">
+                <input class="prefix__input" type="radio" name="games" value="x-box"><span class="prefix__span">X-box One S</span>
+              </label>
 
-            <label class="label">
-              <input type="radio" name="games" value="dendy">Dendy
-            </label>
-          </fieldset>
-
-          <fieldset>
-            <legend>Настольные игры:</legend>
-
-            <label class="label">
-              <input type="checkbox" name="table games" value="jenda">Jenga
-            </label>
-
-            <label class="label">
-              <input type="checkbox" name="table games" value="monopoly">Monopoly
-            </label>
-
-            <label class="label">
-              <input type="checkbox" name="table games" value="manchi">Манчкин
-            </label>
-
-            <label class="label">
-              <input type="checkbox" name="table games" value="alias">Alias
-            </label>
+              <label class="prefix__label">
+                <input class="prefix__input" type="radio" name="games" value="dendy"><span class="prefix__span">Dendy</span>
+              </label>
+            </div>
 
           </fieldset>
 
-          <fieldset>
-            <legend>Дополнительно:</legend>
+          <fieldset class="table">
+            <legend class="table__legend">Настольные игры:</legend>
+            <div class="table__flex">
+              <label class="table__label">
+                <input class="table__input" type="checkbox" name="table games" value="jenda"><span class="table__span">Jenga</span>
+              </label>
 
-            <label class="label">
-              <input type="checkbox" name="additionally" value="karaoke">Караоке
-            </label>
+              <label class="table__label">
+                <input class="table__input" type="checkbox" name="table games" value="monopoly"><span class="table__span">Monopoly</span>
+              </label>
 
-            <label class="label">
-              <input type="checkbox" name="additionally" value="vr">VR
-            </label>
+              <label class="table__label">
+                <input class="table__input" type="checkbox" name="table games" value="manchi"><span class="table__span">Манчкин</span>
+              </label>
+
+              <label class="table__label">
+                <input class="table__input" type="checkbox" name="table games" value="alias"><span class="table__span">Alias</span>
+              </label>
+            </div>
+
           </fieldset>
-        </fieldset>
 
-        <fieldset>
-          <legend>Выбери дату и время</legend>
+          <fieldset class="add">
+            <legend class="add__legend">Дополнительно:</legend>
+            <div class="add__flex">
+              <label class="add__label">
+                <input class="add__input" type="checkbox" name="additionally" value="karaoke"><span class="add__span">Караоке</span>
+              </label>
 
-          <label class="label"> Дата*
-            <input type="date" name="date" required>
-          </label>
+              <label class="add__label">
+                <input class="add__input" type="checkbox" name="additionally" value="vr"><span class="add__span">VR</span>
+              </label>
+            </div>
 
-          <label class="label"> Время*
-            <input type="time" name="time" required>
-          </label>
-
-          <label class="label"> Количество человек*
-            <input type="number" name="col" required>
-          </label>
-
-          <label class="label"> Имя*
-            <input type="text" name="name" required>
-          </label>
-
-          <label class="label"> Фамилия*
-            <input type="text" name="family" required>
-          </label>
-
-          <label class="label"> Номер телефон*
-            <input type="tel" name="tel"  required>
-          </label>
-          <label class="label">
-            <input type="checkbox" name="checkbox" required>Я старше 18
-          </label>
+          </fieldset>
 
         </fieldset>
-        <button type="submit">Забронировать</button>
 
-        <label class="label">
-          <input type="checkbox" name="checkbox" required>Согласен на обработку данных
-        </label>
+        <fieldset class="data">
+          <legend class="data__legend">Выбери дату и время</legend>
+          <div class="data__flex">
+            <div class="div-0">
+              <label class="data__label">
+                <input class="data__input" type="date" name="date" required>
+              </label>
+
+              <label class="data__label">
+                <input class="data__input" type="time" name="time" required>
+              </label>
+
+              <label class="data__label">
+                <input class="data__input-col" type="number" name="col" required>
+              </label>
+            </div>
+
+            <div class="div-1">
+              <label class="data__label">
+                <input class="data__input-col2" type="text" name="name" required>
+              </label>
+
+              <label class="data__label">
+                <input class="data__input-col2" type="text" name="family" required>
+              </label>
+            </div>
+
+            <div class="div-2">
+              <label class="data__label">
+                <input class="data__input-col3" type="tel" name="tel"  required>
+              </label>
+              <label class="data__label">
+                <input class="data__input-col3" type="tel" name="tel"  required>
+              </label>
+              <button class="data__btn" type="submit">Забронировать</button>
+            </div>
+          </div>
+
+
+        </fieldset>
+
+
       </form>
     </div>
   </section>
@@ -193,28 +208,18 @@
   <section class="about">
     <div class="container">
       <h2 class="about__title subtitle" id="about">О нас</h2>
-      <div class="container-bg"></div>
-      <div class="about__description">
-        <p class="about__text">Для наших гостей мы создаликонцептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
-        <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
-        <blockquote class="blockquote">
-          <p class="blockquote__text"><strong class="blockquote__strong">GAME OVER —</strong><br>это место незабываемых впечатлений</p>
-          <p class="blockquote__author"><cite>Аркадий Абакшин,<br></cite><em>создатель игровой территории GAME OVER</em></p>
-        </blockquote>
+      <div class="about__flex">
+        <div class="container-bg"></div>
+        <div class="about__description">
+          <p class="about__text">Для наших гостей мы создаликонцептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+          <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+          <blockquote class="blockquote">
+            <p class="blockquote__text"><strong class="blockquote__strong">GAME OVER —</strong><br>это место незабываемых впечатлений</p>
+            <p class="blockquote__author"><cite>Аркадий Абакшин,<br></cite><em>создатель игровой территории GAME OVER</em></p>
+          </blockquote>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <section class="questions">
-    <div class="container">
-      <h2 class="questions__title subtitle">Частые вопросы</h2>
-      <ul class="questions__list">
-        <li class="questions__item questions__item_purple">Можно ли забронировать комнату оналйн?</li>
-        <li class="questions__item">Могут ли мне вернуть деньги за бронь?</li>
-        <li class="questions__item questions__item_purple">Какая комната самая популярная?</li>
-        <li class="questions__item">Как получить VIP карту?</li>
-        <li class="questions__item questions__item_purple">Какая комната самая популярная?</li>
-      </ul>
     </div>
   </section>
 
@@ -248,10 +253,25 @@
       </ul>
     </div>
   </section>
+
+  <section class="questions">
+    <div class="container">
+      <h2 class="questions__title subtitle">Частые вопросы</h2>
+      <ul class="questions__list">
+        <li class="questions__item questions__item_purple">Можно ли забронировать комнату оналйн?</li>
+        <li class="questions__item">Могут ли мне вернуть деньги за бронь?</li>
+        <li class="questions__item questions__item_purple">Какая комната самая популярная?</li>
+        <li class="questions__item">Как получить VIP карту?</li>
+        <li class="questions__item questions__item_purple">Какая комната самая популярная?</li>
+      </ul>
+    </div>
+  </section>
+
+
 </main>
 
 <footer class="footer">
-  <div class="container">
+  <div class="container container-img">
     <h2 class="footer__title subtitle" id="contacts">Контакты</h2>
     <ul class="contact">
       <li class="contact__item contact__item_location"><p class="contact__text">г.Москва<br>ул.Аквамарина, 16</p></li>
@@ -289,6 +309,7 @@
       </a>
       </li>
     </ul>
+    <img class="contact__map" src="img/map.png" alt="Карта">
   </div>
 
 </footer>
