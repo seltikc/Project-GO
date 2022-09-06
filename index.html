@@ -159,48 +159,55 @@
 
         </fieldset>
 
-        <fieldset class="data">
-          <legend class="data__legend">Выбери дату и время</legend>
-          <div class="data__flex">
-            <div class="div-0">
-              <label class="data__label">
-                <input class="data__input" type="date" name="date" required>
-              </label>
+        <fieldset class="date">
+          <legend class="date__legend">Выбери дату и время</legend>
+          <div class="date__flexbox">
+            <div class="data__flex-wrap">
+              <div class="date__flex1">
+                <div class="date__text">
+                  <label class="date__label" for="dates"></label>
+                  <input class="date__input date__input-placeholder" type="text" name="date" id="dates" placeholder="Дата" required><span class="date__arrow"></span>
+                </div>
+                <div class="date__text">
+                  <label class="date__label" for="time"></label>
+                  <input class="date__input date__input-placeholder" type="text" name="time" id="time" placeholder="Время" required><span class="date__arrow"></span>
+                </div>
+              </div>
 
-              <label class="data__label">
-                <input class="data__input" type="time" name="time" required>
-              </label>
-
-              <label class="data__label">
-                <input class="data__input-col" type="number" name="col" required>
-              </label>
+              <div class="date__text">
+                <label class="date__label" for="human"></label>
+                <input class="date__input date__input-human date__input-placeholder" type="number" name="col" id="human" placeholder="Сколько человек" required><span class="date__arrow date__arrow-human"></span>
+              </div>
             </div>
 
-            <div class="div-1">
-              <label class="data__label">
-                <input class="data__input-col2" type="text" name="name" required>
-              </label>
+            <div class="date__flex">
+              <div class="date__text">
+                <label class="date__label" for="name">Имя</label>
+                <input class="date__input date__input-name" type="text" name="name" id="name" required>
+              </div>
 
-              <label class="data__label">
-                <input class="data__input-col2" type="text" name="family" required>
-              </label>
+              <div class="date__text">
+                <label class="date__label" for="firstname">Фамилия</label>
+                <input class="date__input date__input-firstname" type="text" name="family" id="firstname" required>
+              </div>
             </div>
 
-            <div class="div-2">
-              <label class="data__label">
-                <input class="data__input-col3" type="tel" name="tel"  required>
-              </label>
-              <label class="data__label">
-                <input class="data__input-col3" type="tel" name="tel"  required>
-              </label>
-              <button class="data__btn" type="submit">Забронировать</button>
+            <div class="date__flex">
+              <div class="date__text">
+                <label class="date__label" for="tel">Телефон</label>
+                <input class="date__input date__input-email" type="tel" name="tel" id="tel"  required>
+              </div>
+
+              <div class="date__text">
+                <label class="date__label" for="email">E-mail</label>
+                <input class="date__input date__input-email" type="tel" name="email" id="email" required>
+              </div>
             </div>
           </div>
-
-
         </fieldset>
-
-
+        <div class="data__flex-btn">
+          <button class="data__btn" type="submit">Забронировать</button>
+        </div>
       </form>
     </div>
   </section>
@@ -267,7 +274,6 @@
     </div>
   </section>
 
-
 </main>
 
 <footer class="footer">
@@ -310,7 +316,18 @@
       </li>
     </ul>
     <img class="contact__map" src="img/map.png" alt="Карта">
+
   </div>
+  <div class="container">
+    <div class="copyright">
+      <p class="copyright__text">© Game Over, 2022</p>
+      <div class="contacts">
+        <p class="contacts__text">Design by Anastasia Ilina</p>
+        <a href="mailto:ilina9825@gmail.com" class="contacts__text">ilina9825@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
 
 </footer>
 

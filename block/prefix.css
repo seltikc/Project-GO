@@ -1,6 +1,6 @@
 .prefix-fieldset {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border: none;
   padding: 0;
   margin-bottom: 60px;
