@@ -4,6 +4,10 @@
   padding-bottom: 200px;
 }
 
+.game__content {
+  position: relative;
+}
+
 .game:before {
   content: "";
   background: url("../img/vr.png") no-repeat;
@@ -59,7 +63,8 @@
   text-transform: uppercase;
   max-width: 193px;
   color: #CD06FF;
-  padding-top: 25px;
+  padding-top: 33px;
+  justify-content: flex-end;
 }
 
 .game__text-hall, .game__text-new {
@@ -88,6 +93,18 @@
   background-color: #000000;
   border: 2px solid #CD06FF;
 }
+
+.game__link {
+  min-width: 97px;
+  min-height: 97px;
+  background-image: url("../img/down.svg");
+  background-size: cover;
+  z-index: 2;
+  position: absolute;
+  left: 558px;
+  bottom: -60px;
+}
+
 
 
 

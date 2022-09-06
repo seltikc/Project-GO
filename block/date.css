@@ -98,14 +98,14 @@
   width: 300px;
 }
 
-.data__flex-btn {
+.date__flex-btn {
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
   margin-right: 100px;
 }
 
-.data__btn {
+.date__btn {
   background-color: #FFFFFF;
   border-radius: 10px;
   min-width: 300px;
@@ -115,13 +115,20 @@
   line-height: 28px;
   text-transform: uppercase;
   color: #6C0287;
-  padding: 16px 50px;
-  border-style: none;
+  border: 2px solid transparent;
+  padding: 16px 48px;
+  transition: background-color 0.3s linear, border 0.3s ease;
 }
 
-.data__btn:focus {
-  background: #6C0287;
+.date__btn:hover {
+  background-color: #6C0287;
   color: #ffffff;
-  transition: background-color 0.3s linear, border 0.3s ease;
+  border: 2px solid #ffffff;
+}
+
+.date__btn:active {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
 }
 

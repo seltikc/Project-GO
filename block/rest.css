@@ -6,10 +6,10 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
-  text-align: center;
   text-transform: uppercase;
-  margin-bottom: 41px;
-  max-width: 980px;
+  margin: 0 160px 40px 160px;
+  text-align: center;
+
 }
 
 .rest__list {

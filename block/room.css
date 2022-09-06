@@ -29,19 +29,18 @@
   padding: 7px 0;
   border-radius: 8px;
   text-transform: uppercase;
-  transition: background-color 0.3s ease;
+  border: 2px solid #6C0287;
+  transition: background-color 0.3s ease, color 0.3s linear, border 0.3s linear;
 }
 
 .room__label:hover {
-  background-color: rgba(255, 214, 6, 0.8);
-}
-
-.room__label:focus {
-  background-color: rgba(255, 214, 6, 0.6);
+  background-color: rgba(255, 255, 255, 0.63);
 }
 
 .room__label:active {
-  background-color: rgba(255, 214, 6, 0.6);
+  background-color: #6C0287;
+  color: #ffffff;
+  border: 2px solid #ffffff;
 }
 
 
