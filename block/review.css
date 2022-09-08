@@ -19,11 +19,11 @@
   line-height: 28px;
   width: 280px;
   text-align: center;
-  margin-top: 5px;
 }
 
 .customers__img {
   display: block;
+  margin-bottom: 5px;
 }
 
 .customers__decs {

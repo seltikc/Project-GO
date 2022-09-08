@@ -23,12 +23,19 @@
   gap: 80px;
 }
 
+.about__text-wrap {
+  padding: 5px;
+}
+
 .about__text {
   margin-bottom: 25px;
-  margin-left: 20px;
   font-size: 20px;
   line-height: 28px;
   text-align: start;
+}
+
+.about__text:last-child {
+  margin-bottom: 0;
 }
 
 .blockquote {
@@ -40,13 +47,19 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 50px;
-  padding-top: 47px;
-  padding-bottom: 50px;
-  margin-left: 50px;
+  padding: 50px 50px;
+}
+
+.blockquote__author-cite, .blockquote__author-em {
+  font-style: normal;
 }
 
 .blockquote__strong {
   font-weight: 500;
+}
+
+.blockquote__wrap {
+  padding-left: 150px;
 }
 
 .blockquote__text:after {
@@ -81,7 +94,6 @@
   text-transform: none;
   width: 385px;
   padding-left: 100px;
-  margin-left: 45px;
 }
 
 

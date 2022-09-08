@@ -8,10 +8,6 @@
   margin-bottom: 40px;
 }
 
-.contact__text {
-  margin-bottom: 20px;
-}
-
 .contact__item {
   display: flex;
   flex-direction: column;

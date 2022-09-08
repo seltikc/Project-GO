@@ -13,17 +13,21 @@
 <header class="header">
 <div class="container">
     <div class="header__flex">
-      <img class="header__img" src="img/logo.svg" alt="Логотип">
-      <ul class="header__list">
-        <li class="header__item"><a class="header__link" href="#hall">Залы</a></li>
-        <li class="header__item"><a class="header__link" href="#about">О нас</a></li>
-        <li class="header__item"><a class="header__link" href="#forms">Бронь</a></li>
-        <li class="header__item"><a class="header__link" href="#review">Отзывы</a></li>
-        <li class="header__item"><a class="header__link" href="#contact">Контакты</a></li>
-      </ul>
-      <button class="header__btn">Заказать звонок</button>
+      <a href="index.html">
+        <img class="header__img" src="img/logo.svg" alt="Логотип">
+      </a>
+      <nav>
+        <ul class="header__list">
+          <li class="header__item"><a class="header__link" href="#hall">Залы</a></li>
+          <li class="header__item"><a class="header__link" href="#about">О нас</a></li>
+          <li class="header__item"><a class="header__link" href="#forms">Бронь</a></li>
+          <li class="header__item"><a class="header__link" href="#review">Отзывы</a></li>
+          <li class="header__item"><a class="header__link" href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="header__btn">Заказать звонок</button>
     </div>
-  </div>
+</div>
 </header>
 
 <main>
@@ -43,13 +47,13 @@
             <p class="game__text-new">Новейшая аппаратура</p>
           </div>
         </div>
-        <button class="game__btn">Забронировать</button>
-        <a class="game__link" href="#forms"></a>
+        <button type="button" class="game__btn">Забронировать</button>
+        <a class="game__link" href="#rest"></a>
       </div>
     </div>
   </section>
 
-  <section class="rest">
+  <section class="rest" id="rest">
     <div class="container">
       <h1 class="rest__title">У нас есть все для классного отдыха с друзьями!</h1>
       <ul class="rest__list">
@@ -225,11 +229,15 @@
       <div class="about__flex">
         <div class="container-bg"></div>
         <div class="about__description">
-          <p class="about__text">Для наших гостей мы создаликонцептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
-          <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+          <div class="about__text-wrap">
+            <p class="about__text">Для наших гостей мы создаликонцептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+            <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+          </div>
           <blockquote class="blockquote">
             <p class="blockquote__text"><strong class="blockquote__strong">GAME OVER —</strong><br>это место незабываемых впечатлений</p>
-            <p class="blockquote__author"><cite>Аркадий Абакшин,<br></cite><em>создатель игровой территории GAME OVER</em></p>
+            <div class="blockquote__wrap">
+              <p class="blockquote__author"><cite class="blockquote__author-cite">Аркадий Абакшин,<br></cite><em class="blockquote__author-em">создатель игровой территории GAME OVER</em></p>
+            </div>
           </blockquote>
         </div>
       </div>
