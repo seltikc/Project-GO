@@ -27,21 +27,28 @@
   font-size: 30px;
   line-height: 40px;
   padding: 7px 0;
+  border: 2px solid transparent;
   border-radius: 8px;
   text-transform: uppercase;
-  border: 2px solid #6C0287;
-  transition: background-color 0.3s ease, color 0.3s linear, border 0.3s linear;
+  transition: background-color 0.3s ease, color 0.3s linear;
 }
 
 .room__label:hover {
-  background-color: rgba(255, 255, 255, 0.63);
+  background-color: #EADEED;
+  border: 2px solid #640AA3;
+}
+
+.room__label:focus {
+  background-color: #ffffff;
+  border: 2px solid #640AA3;
 }
 
 .room__label:active {
   background-color: #6C0287;
-  color: #ffffff;
   border: 2px solid #ffffff;
+  color: #ffffff;
 }
+
 
 
 

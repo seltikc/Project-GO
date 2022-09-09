@@ -89,21 +89,78 @@
   transition: background-color 0.3s linear, border 0.3s ease;
 }
 
-.game__btn:hover {
-  background-color: #000000;
-  border: 2px solid #CD06FF;
+.game__btn:hover, .game__btn:focus {
+  background-color: #840AA3;
+  border: 2px solid #840AA3;
+}
+
+.game__btn:active {
+  background-color: #640AA3;
+  border: 2px solid #640AA3;
+}
+
+.game__icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .game__link {
-  min-width: 97px;
-  min-height: 97px;
-  background-image: url("../img/down.svg");
-  background-size: cover;
-  z-index: 2;
-  position: absolute;
-  left: 558px;
-  bottom: -60px;
+  content: "";
+  width: 97px;
+  height: 97px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
 }
+
+.game__link-after {
+  padding: 32px;
+  position: absolute;
+  top: 10px;
+}
+
+.game__link-after:after {
+  content: '';
+  display: block;
+  border: 1px solid #ffffff;
+  position: absolute;
+  width: 20px;
+  left: 30px;
+  bottom: 20px;
+  transform: rotate(135deg);
+}
+
+.game__link-after:before {
+  content: '';
+  display: block;
+  border: 1px solid #ffffff;
+  width: 20px;
+  position: absolute;
+  left: 16px;
+  bottom: 20px;
+  transform: rotate(45deg);
+}
+
+
+.game__link-after:hover:before, .game__link-after:hover:after {
+  border: 1px solid #6C0287;
+}
+
+.game__link:hover {
+  background: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
