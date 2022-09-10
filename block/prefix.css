@@ -67,7 +67,7 @@
 }
 
 .prefix__span:focus:before {
-  border: 1px solid #CD06FF;
+  outline: 1px solid red;
 }
 
 

@@ -107,6 +107,7 @@
 
 .game__link {
   content: "";
+  display: block;
   width: 97px;
   height: 97px;
   border: 2px solid #ffffff;
@@ -118,8 +119,7 @@
   content: "";
   width: 97px;
   height: 97px;
-  border: 2px solid #CD06FF;
-  position: absolute;
+  outline: 1px solid red;
   display: none;
 }
 
@@ -169,6 +169,15 @@
 .game__link:active {
   background: #CD06FF;
 }
+
+.game__link:focus:after {
+  outline: 1px solid #CD06FF;
+  display: block;
+}
+
+
+
+
 
 
 
