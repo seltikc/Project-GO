@@ -100,9 +100,9 @@
 }
 
 .game__icon {
-  position: relative;
   display: flex;
   justify-content: center;
+  transition: background 0.25s linear;
 }
 
 .game__link {
@@ -111,12 +111,23 @@
   height: 97px;
   border: 2px solid #ffffff;
   border-radius: 50%;
+  position: relative;
+}
+
+.game__link:after {
+  content: "";
+  width: 97px;
+  height: 97px;
+  border: 2px solid #CD06FF;
+  position: absolute;
+  display: none;
 }
 
 .game__link-after {
-  padding: 32px;
   position: absolute;
-  top: 10px;
+  padding: 40px;
+  bottom: 8px;
+  right: 7px;
 }
 
 .game__link-after:after {
@@ -125,9 +136,10 @@
   border: 1px solid #ffffff;
   position: absolute;
   width: 20px;
-  left: 30px;
-  bottom: 20px;
+  left: 36px;
+  bottom: 33px;
   transform: rotate(135deg);
+  transition: border 0.25s linear;
 }
 
 .game__link-after:before {
@@ -136,19 +148,35 @@
   border: 1px solid #ffffff;
   width: 20px;
   position: absolute;
-  left: 16px;
-  bottom: 20px;
+  left: 23px;
+  bottom: 33px;
   transform: rotate(45deg);
+  transition: border 0.25s linear;
 }
-
 
 .game__link-after:hover:before, .game__link-after:hover:after {
   border: 1px solid #6C0287;
 }
 
+.game__link-after:active:before, .game__link-after:active:after {
+  border: 1px solid #ffffff;
+}
+
 .game__link:hover {
   background: #ffffff;
 }
+
+.game__link:active {
+  background: #CD06FF;
+}
+
+
+
+
+
+
+
+
 
 
 

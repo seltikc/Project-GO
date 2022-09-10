@@ -42,12 +42,28 @@
   background-image: url("../img/open-white.svg");
 }
 
+.questions__item:nth-child(even):hover:after {
+  background-image: url("../img/open1.svg");
+}
+
+.questions__item:nth-child(even):active:after {
+  background-image: url("../img/open-.svg");
+}
+
 .questions__item_purple:after {
   content: "";
   display: block;
   width: 46px;
   height: 46px;
   background-image: url("../img/open-purple.svg");
+}
+
+.questions__item_purple:hover:after {
+  background-image: url("../img/open2.svg");
+}
+
+.questions__item_purple:active:after {
+  background-image: url("../img/close-.svg");
 }
 
 

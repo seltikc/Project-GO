@@ -55,3 +55,7 @@
 .add__input:checked + .add__span:after {
   opacity: 1;
 }
+
+.add__span:focus:before {
+  border: 1px solid #CD06FF;
+}

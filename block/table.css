@@ -53,3 +53,7 @@
 .table__input:checked + .table__span:after {
   opacity: 1;
 }
+
+.table__span:focus:before {
+  border: 1px solid #CD06FF;
+}

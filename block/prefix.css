@@ -38,6 +38,7 @@
 .prefix__span:before {
   content: '';
   position: absolute;
+  display: block;
   top: 13px;
   left: 0;
   width: 27px;
@@ -50,6 +51,7 @@
 .prefix__span:after {
   content: '';
   position: absolute;
+  display: block;
   top: 18px;
   left: 6px;
   width: 16px;
@@ -62,6 +64,10 @@
 
 .prefix__input:checked + .prefix__span:after {
   opacity: 1;
+}
+
+.prefix__span:focus:before {
+  border: 1px solid #CD06FF;
 }
 
 
