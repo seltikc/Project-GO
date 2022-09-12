@@ -40,6 +40,7 @@
   width: 46px;
   height: 46px;
   background-image: url("../img/open-white.svg");
+  transition: background-image 0.25s linear;
 }
 
 .questions__item:nth-child(even):hover:after {
@@ -56,6 +57,7 @@
   width: 46px;
   height: 46px;
   background-image: url("../img/open-purple.svg");
+  transition: background-image 0.25s linear;
 }
 
 .questions__item_purple:hover:after {

@@ -30,7 +30,7 @@
   border: 2px solid transparent;
   border-radius: 8px;
   text-transform: uppercase;
-  transition: background-color 0.3s ease, color 0.3s linear;
+  transition: background-color 0.25s ease, color 0.25s linear, border 0.25s linear;
 }
 
 .room__label:hover {

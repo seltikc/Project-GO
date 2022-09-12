@@ -36,8 +36,12 @@
   display: block;
   width: 100%;
   min-height: 228px;
+  transition: transform 0.25s ease;
 }
-
+.rest__item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
 
 .rest__item_vr {
 background-image: url("../img/rest/vr.png");
@@ -62,3 +66,5 @@ background-image: url("../img/rest/netflix.png");
 .rest__item_games {
 background-image: url("../img/rest/games.png");
 }
+
+

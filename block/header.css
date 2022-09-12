@@ -43,7 +43,7 @@
   color: #fff;
   text-transform: uppercase;
   padding: 12px 32px;
-  transition: background-color 0.3s linear;
+  transition: background-color 0.25s linear, border 0.2s linear;
 }
 
 .header__btn:hover, .header__btn:focus {
