@@ -34,14 +34,42 @@
   margin-bottom: 38px;
 }
 
-.contact__phone {
+.contact__phone, .contact__email {
+  max-width: 380px;
   text-decoration: none;
   color: #ffffff;
+  outline: 1px solid transparent;
+  transition: color 0.3s linear, outline-color 0.3s linear;
 }
+
+.contact__phone:hover{
+  color: #EADEED;
+}
+
+.contact__phone:active{
+  color: #CD06FF;
+}
+
+.contact__phone:focus{
+  outline-color: #CD06FF;
+}
+
 
 .contact__email {
   text-decoration: none;
   color: #ffffff;
+}
+
+.contact__email:hover{
+  color: #EADEED;
+}
+
+.contact__email:active{
+  color: #CD06FF;
+}
+
+.contact__email:focus{
+  outline-color: #CD06FF;
 }
 
 .container-img {
@@ -50,8 +78,17 @@
 }
 
 .contact__map {
+  display: block;
   position: absolute;
   bottom: 0;
   right: 0;
+  transition: transform 0.25s linear;
 }
+
+.contact__map:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
 

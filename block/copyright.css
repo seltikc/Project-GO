@@ -6,3 +6,20 @@
   line-height: 16px;
 }
 
+.contacts__text-link {
+  outline: 1px solid transparent;
+  transition: color 0.3s linear, outline-color 0.3s linear;
+}
+
+
+.contacts__text-link:hover {
+  color: #EADEED;
+}
+
+.contacts__text-link:active {
+  color: #CD06FF;
+}
+
+.contacts__text-link:focus {
+  outline-color: #CD06FF;
+}

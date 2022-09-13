@@ -18,19 +18,27 @@
   align-items: center;
 }
 
+.room__input {
+  display: none;
+}
+
 .room__label {
-  flex-basis: 250px;
-  text-align: center;
-  background-color: #ffffff;
-  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 55px;
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
-  padding: 7px 0;
-  border: 2px solid transparent;
-  border-radius: 8px;
   text-transform: uppercase;
-  transition: background-color 0.25s ease, color 0.25s linear, border 0.25s linear;
+  border: 2px solid transparent;
+  color: #000000;
+  cursor: pointer;
+  user-select: none;
+  background-color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.25s linear, border 0.25s linear, color 0.20s linear;
 }
 
 .room__label:hover {
@@ -47,6 +55,15 @@
   background-color: #6C0287;
   border: 2px solid #ffffff;
   color: #ffffff;
+}
+
+.room__radio-label input[type=radio]:checked + label {
+  background: #c880da;
+  transition: 0.5s ;
+}
+
+.room__radio-label {
+  display: inline-block;
 }
 
 
