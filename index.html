@@ -12,21 +12,21 @@
 
 <header class="header">
 <div class="container">
-  <div class="header__flex">
-    <a href="index.html">
-      <img class="header__img" src="img/logo.svg" alt="Логотип">
-    </a>
-    <nav>
-      <ul class="header__list">
-        <li class="header__item"><a class="header__link" href="#hall">Залы</a></li>
-        <li class="header__item"><a class="header__link" href="#about">О нас</a></li>
-        <li class="header__item"><a class="header__link" href="#forms">Бронь</a></li>
-        <li class="header__item"><a class="header__link" href="#review">Отзывы</a></li>
-        <li class="header__item"><a class="header__link" href="#contact">Контакты</a></li>
-      </ul>
-    </nav>
-    <button type="button" class="header__btn">Заказать звонок</button>
-  </div>
+    <div class="header__flex">
+      <a href="index.html">
+        <img class="header__img" src="img/logo.svg" alt="Логотип">
+      </a>
+      <nav>
+        <ul class="header__list">
+          <li class="header__item"><a class="header__link" href="#hall">Залы</a></li>
+          <li class="header__item"><a class="header__link" href="#about">О нас</a></li>
+          <li class="header__item"><a class="header__link" href="#forms">Бронь</a></li>
+          <li class="header__item"><a class="header__link" href="#review">Отзывы</a></li>
+          <li class="header__item"><a class="header__link" href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="header__btn">Заказать звонок</button>
+    </div>
   </div>
 </header>
 
@@ -59,12 +59,49 @@
     <div class="container">
       <h1 class="rest__title">У нас есть все для классного отдыха с друзьями!</h1>
       <ul class="rest__list">
-        <li class="rest__item rest__item_vr"><p class="rest__text">VR очки</p></li>
-        <li class="rest__item rest__item_disco"><p class="rest__text">Аудио-система 5.1 с отличным звуком</p></li>
-        <li class="rest__item rest__item_sings"><p class="rest__text">Караоке (4 микрофона)</p></li>
-        <li class="rest__item rest__item_table"><p class="rest__text">Настольные игры</p></li>
-        <li class="rest__item rest__item_netflix"><p class="rest__text">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</p></li>
-        <li class="rest__item rest__item_games"><p class="rest__text">РlаyStаtiоn 5</p></li>
+        <li class="rest__item">
+          <figure class="rest__content">
+            <img class="rest__image" src="img/rest/vr.png" alt="Vr очки">
+            <figcaption class="rest__text">VR очки</figcaption>
+          </figure>
+        </li>
+
+        <li class="rest__item">
+          <figure class="rest__content">
+            <img class="rest__image" src="img/rest/disco.png" alt="Аудио-система">
+            <figcaption class="rest__text">Аудио-система 5.1
+              с отличным звуком</figcaption>
+          </figure>
+        </li>
+
+        <li class="rest__item">
+          <figure class="rest__content">
+            <img class="rest__image" src="img/rest/sings.png" alt="Караоке">
+            <figcaption class="rest__text">Караоке (4 микрофона)</figcaption>
+          </figure>
+        </li>
+
+        <li class="rest__item">
+          <figure class="rest__content">
+            <img class="rest__image" src="img/rest/table-games.png" alt="Настольные игры">
+            <figcaption class="rest__text">Настольные игры</figcaption>
+          </figure>
+        </li>
+
+        <li class="rest__item">
+          <figure class="rest__content">
+            <img class="rest__image" src="img/rest/netflix.png" alt="Кино и сериалы">
+            <figcaption class="rest__text">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
+          </figure>
+        </li>
+
+        <li class="rest__item">
+          <figure class="rest__content">
+            <img class="rest__image" src="img/rest/games.png" alt="РlаyStаtiоn 5">
+            <figcaption class="rest__text">РlаyStаtiоn 5</figcaption>
+          </figure>
+        </li>
+
       </ul>
     </div>
   </section>
@@ -260,7 +297,9 @@
       <ul class="review__list">
         <li class="review__item customers">
           <figure class="customers__figure">
-            <img class="customers__img" src="img/review/maks.png" alt="Макс Самойлов">
+            <div class="customers__block-img">
+              <img class="customers__img" src="img/review/maks.png" alt="Макс Самойлов">
+            </div>
             <figcaption class="customers__figcaption">Макс Самойлов</figcaption>
           </figure>
           <p class="customers__decs">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
@@ -268,7 +307,9 @@
 
         <li class="review__item customers">
           <figure class="customers__figure">
-            <img class="customers__img" src="img/review/oksana.png" alt="Оксана Григорьева">
+            <div class="customers__block-img">
+              <img class="customers__img" src="img/review/oksana.png" alt="Оксана Григорьева">
+            </div
             <figcaption class="customers__figcaption">Оксана Григорьева</figcaption>
           </figure>
           <p class="customers__decs">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
@@ -276,7 +317,9 @@
 
         <li class="review__item customers">
           <figure class="customers__figure">
-            <img class="customers__img" src="img/review/nikita.png" alt="Никита Ященко">
+            <div class="customers__block-img">
+              <img class="customers__img" src="img/review/nikita.png" alt="Никита Ященко">
+            </div>
             <figcaption class="customers__figcaption">Никита Ященко</figcaption>
           </figure>
           <p class="customers__decs">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса</p>

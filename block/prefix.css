@@ -43,9 +43,9 @@
   left: 0;
   width: 27px;
   height: 27px;
-  border: 1px solid #CDD1DA;
+  border: 1px solid var(--color-CDD1DA);
   border-radius: 50%;
-  background: #FFF;
+  background: var(--color-FFFFFF);
 }
 
 .prefix__span:after {
@@ -57,7 +57,7 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #440F51;
+  background: var(--color-440F51);
   opacity: 0;
   transition: .2s;
 }
@@ -67,7 +67,7 @@
 }
 
 .prefix__span:focus:before {
-  outline: 1px solid red;
+  outline: 1px solid var(--color-FFFFFF);
 }
 
 

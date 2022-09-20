@@ -34,9 +34,8 @@
   left: 0;
   width: 27px;
   height: 27px;
-  border: 1px solid #CDD1DA;
   border-radius: 50%;
-  background: #FFF;
+  background: var(--color-FFFFFF)
 }
 
 .add__span:after {
@@ -47,7 +46,7 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #440F51;
+  background: var(--color-440F51);
   opacity: 0;
   transition: .2s;
 }
@@ -57,5 +56,5 @@
 }
 
 .add__span:focus:before {
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--color-CD06FF);
 }

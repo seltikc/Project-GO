@@ -2,7 +2,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  color: #ffffff;
+  color: var(--color-FFFFFF);
   list-style-type: none;
   padding: 0;
   margin-bottom: 40px;
@@ -37,39 +37,39 @@
 .contact__phone, .contact__email {
   max-width: 380px;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--color-FFFFFF);
   outline: 1px solid transparent;
   transition: color 0.3s linear, outline-color 0.3s linear;
 }
 
 .contact__phone:hover{
-  color: #EADEED;
+  color: var(--color-EADEED);
 }
 
 .contact__phone:active{
-  color: #CD06FF;
+  color: var(--color-CD06FF)
 }
 
 .contact__phone:focus{
-  outline-color: #CD06FF;
+  outline-color: var(--color-CD06FF)
 }
 
 
 .contact__email {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--color-FFFFFF)
 }
 
 .contact__email:hover{
-  color: #EADEED;
+  color: var(--color-EADEED)
 }
 
 .contact__email:active{
-  color: #CD06FF;
+  color: var(--color-CD06FF);
 }
 
 .contact__email:focus{
-  outline-color: #CD06FF;
+  outline-color: var(--color-CD06FF);
 }
 
 .container-img {
@@ -80,7 +80,7 @@
 .contact__map {
   display: block;
   position: absolute;
-  bottom: 0;
+  bottom: -40px;
   right: 0;
   transition: transform 0.25s linear;
 }

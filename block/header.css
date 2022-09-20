@@ -26,7 +26,7 @@
 }
 
 .header__item:hover {
-  color: rgba(230, 6, 255, 1);
+  color: var(--color-CD06FF)
 }
 
 .header__item:last-child {
@@ -38,7 +38,7 @@
   font-size: 22px;
   line-height: 30px;
   background-color: inherit;
-  border: 2px solid #CD06FF;
+  border: 2px solid var(--color-CD06FF);
   border-radius: 10px;
   color: #fff;
   text-transform: uppercase;
@@ -47,13 +47,13 @@
 }
 
 .header__btn:hover, .header__btn:focus {
-  background-color: #6C0287;
-  border: 2px solid #6C0287;
+  background-color: var(--color-6C0287);
+  border: 2px solid var(--color-6C0287);
 }
 
 .header__btn:active {
-  background-color: #640AA3;
-  border: 2px solid #640AA3;
+  background-color: var(--color-640AA3);
+  border: 2px solid var(--color-640AA3);
 }
 
 

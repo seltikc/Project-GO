@@ -14,8 +14,8 @@ body {
   min-height: 100vh;
   font-weight: 400;
   font-family: Arial, sans-serif;
-  color: #ffffff;
-  background: #1B1A1B;
+  color: var(--color-FFFFFF);
+  background: var(--color-1B1A1B);
   font-size: 22px;
   line-height: 50px;
 }

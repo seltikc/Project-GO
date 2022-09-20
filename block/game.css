@@ -53,7 +53,7 @@
   font-size: 100px;
   line-height: 141px;
   max-width: 193px;
-  color: #CD06FF;
+  color: var(--color-CD06FF)
 }
 
 .game__new {
@@ -62,7 +62,7 @@
   line-height: 106px;
   text-transform: uppercase;
   max-width: 193px;
-  color: #CD06FF;
+  color: var(--color-CD06FF);
   padding-top: 33px;
   justify-content: flex-end;
 }
@@ -73,11 +73,11 @@
   font-weight: 400;
   text-align: center;
   text-transform: none;
-  color: #ffffff;
+  color: var(--color-FFFFFF);
 }
 
 .game__btn {
-  background: #6C0287;
+  background: var(--color-6C0287);
   border-radius: 10px;
   font-weight: 700;
   font-size: 26px;
@@ -90,13 +90,13 @@
 }
 
 .game__btn:hover, .game__btn:focus {
-  background-color: #840AA3;
-  border: 2px solid #840AA3;
+  background-color: var(--color-840AA3);
+  border: 2px solid var(--color-840AA3);
 }
 
 .game__btn:active {
-  background-color: #640AA3;
-  border: 2px solid #640AA3;
+  background-color: var(--color-640AA3);
+  border: 2px solid var(--color-640AA3);
 }
 
 .game__icon {
@@ -110,7 +110,7 @@
   display: block;
   width: 97px;
   height: 97px;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--color-FFFFFF);
   border-radius: 50%;
   position: relative;
 }
@@ -119,7 +119,7 @@
   content: "";
   width: 97px;
   height: 97px;
-  outline: 1px solid red;
+  outline: 1px solid transparent;
   display: none;
 }
 
@@ -133,7 +133,7 @@
 .game__link-after:after {
   content: '';
   display: block;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-FFFFFF);
   position: absolute;
   width: 20px;
   left: 36px;
@@ -145,7 +145,7 @@
 .game__link-after:before {
   content: '';
   display: block;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-FFFFFF);
   width: 20px;
   position: absolute;
   left: 23px;
@@ -155,23 +155,23 @@
 }
 
 .game__link-after:hover:before, .game__link-after:hover:after {
-  border: 1px solid #6C0287;
+  border: 1px solid var(--color-6C0287);
 }
 
 .game__link-after:active:before, .game__link-after:active:after {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-FFFFFF);
 }
 
 .game__link:hover {
-  background: #ffffff;
+  background: var(--color-FFFFFF);
 }
 
 .game__link:active {
-  background: #CD06FF;
+  background: var(--color-CD06FF);
 }
 
 .game__link:focus:after {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--color-CD06FF);
   display: block;
 }
 
