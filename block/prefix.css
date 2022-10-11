@@ -16,6 +16,7 @@
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .prefix__flex {
@@ -70,5 +71,17 @@
   outline: 1px solid var(--color-FFFFFF);
 }
 
+
+@media (max-width: 1024px) {
+
+  .prefix__legend {
+    margin-bottom: 26px;
+  }
+
+  .prefix__legend-play {
+    margin-bottom: 23px;
+  }
+
+}
 
 

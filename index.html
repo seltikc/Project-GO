@@ -13,7 +13,7 @@
 <header class="header">
 <div class="container">
     <div class="header__flex">
-      <a href="index.html">
+      <a class="header__img-link" href="index.html">
         <img class="header__img" src="img/logo.svg" alt="Логотип">
       </a>
       <nav>
@@ -39,7 +39,7 @@
         <p class="game__text">Новый формат игр и отдых</p>
         <div class="game__flex">
           <div class="game__four">
-            <p class="game__text__number">4</p>
+            <p class="game__text-number">4</p>
             <p class="game__text-hall">Тематических зала</p>
           </div>
           <div class="game__new">
@@ -91,7 +91,7 @@
         <li class="rest__item">
           <figure class="rest__content">
             <img class="rest__image" src="img/rest/netflix.png" alt="Кино и сериалы">
-            <figcaption class="rest__text">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
+            <figcaption class="rest__text rest__text-1024">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
           </figure>
         </li>
 
@@ -110,10 +110,10 @@
     <div class="container">
       <h2 class="hall__title subtitle" id="halls">Наши залы</h2>
       <ol class="hall__list">
-        <li class="hall__item hall__item_img1"><p class="hall__desc">80's vibes</p></li>
-        <li class="hall__item hall__item_img2"><p class="hall__desc">Star wars</p></li>
-        <li class="hall__item hall__item_img3"><p class="hall__desc">Wild west</p></li>
-        <li class="hall__item hall__item_img4"><p class="hall__desc">Neon Style</p></li>
+        <li class="hall__item hall__item-img1"><p class="hall__desc">80's vibes</p></li>
+        <li class="hall__item hall__item-img2"><p class="hall__desc">Star wars</p></li>
+        <li class="hall__item hall__item-img3"><p class="hall__desc">Wild west</p></li>
+        <li class="hall__item hall__item-img4"><p class="hall__desc">Neon Style</p></li>
       </ol>
     </div>
   </section>
@@ -153,10 +153,10 @@
         </fieldset>
 
         <fieldset class="prefix-fieldset">
-          <legend class="prefix__legend room__legend">Собери набор развлечений</legend>
+          <legend class="prefix__legend">Собери набор развлечений</legend>
 
           <fieldset class="prefix">
-            <legend class="prefix__legend">Приставка:</legend>
+            <legend class="prefix__legend prefix__legend-play">Приставка:</legend>
             <div class="prefix__flex">
 
               <label class="prefix__label">
@@ -218,53 +218,48 @@
 
         <fieldset class="date">
           <legend class="date__legend">Выбери дату и время</legend>
-          <div class="date__flexbox">
-            <div class="data__flex-wrap">
-              <div class="date__flex1">
-                <div class="date__text">
-                  <label class="date__label" for="dates"></label>
-                  <input class="date__input date__input-placeholder" type="text" name="date" id="dates" placeholder="Дата" required><span class="date__arrow"></span>
+          <div class="date__grid">
+              <div class="date__text1">
+                <label class="date__label" for="dates"></label>
+                <input class="date__input date__input-placeholder" type="text" name="date" id="dates" placeholder="Дата" required><span class="date__arrow"></span>
                 </div>
-                <div class="date__text">
-                  <label class="date__label" for="time"></label>
-                  <input class="date__input date__input-placeholder" type="text" name="time" id="time" placeholder="Время" required><span class="date__arrow"></span>
-                </div>
+
+              <div class="date__text2">
+                <label class="date__label" for="time"></label>
+                <input class="date__input date__input-placeholder" type="text" name="time" id="time" placeholder="Время" required><span class="date__arrow"></span>
               </div>
 
-              <div class="date__text">
+              <div class="date__text3">
                 <label class="date__label" for="human"></label>
                 <input class="date__input date__input-human date__input-placeholder" type="number" name="col" id="human" placeholder="Сколько человек" required><span class="date__arrow date__arrow-human"></span>
               </div>
-            </div>
 
-            <div class="date__flex">
-              <div class="date__text">
+              <div class="date__text4">
                 <label class="date__label" for="name">Имя</label>
                 <input class="date__input date__input-name" type="text" name="name" id="name" required>
               </div>
 
-              <div class="date__text">
+              <div class="date__text5">
                 <label class="date__label" for="firstname">Фамилия</label>
                 <input class="date__input date__input-firstname" type="text" name="family" id="firstname" required>
               </div>
-            </div>
 
-            <div class="date__flex">
-              <div class="date__text">
+              <div class="date__text6">
                 <label class="date__label" for="tel">Телефон</label>
                 <input class="date__input date__input-email" type="tel" name="tel" id="tel"  required>
               </div>
 
-              <div class="date__text">
+              <div class="date__text7">
                 <label class="date__label" for="email">E-mail</label>
                 <input class="date__input date__input-email" type="tel" name="email" id="email" required>
               </div>
+
+              <div class="date__grid-btn">
+                <button class="date__btn" type="submit">Забронировать</button>
+              </div>
             </div>
-          </div>
         </fieldset>
-        <div class="date__flex-btn">
-          <button class="date__btn" type="submit">Забронировать</button>
-        </div>
+        
       </form>
     </div>
   </section>
@@ -272,15 +267,15 @@
   <section class="about" id="about">
     <div class="container">
       <h2 class="about__title subtitle">О нас</h2>
-      <div class="about__flex">
-        <div class="container-bg"></div>
+      <div class="about__grid">
+        <img src="img/photos.png" alt="">
         <div class="about__description">
           <div class="about__text-wrap">
             <p class="about__text">Для наших гостей мы создаликонцептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
             <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
           </div>
           <blockquote class="blockquote">
-            <p class="blockquote__text"><strong class="blockquote__strong">GAME OVER —</strong><br>это место незабываемых впечатлений</p>
+            <p class="blockquote__text"><strong class="blockquote__strong">GAME OVER —</strong>&nbsp;это место незабываемых впечатлений</p>
             <div class="blockquote__wrap">
               <p class="blockquote__author"><cite class="blockquote__author-cite">Аркадий Абакшин,<br></cite><em class="blockquote__author-em">создатель игровой территории GAME OVER</em></p>
             </div>
@@ -309,7 +304,7 @@
           <figure class="customers__figure">
             <div class="customers__block-img">
               <img class="customers__img" src="img/review/oksana.png" alt="Оксана Григорьева">
-            </div
+            </div>
             <figcaption class="customers__figcaption">Оксана Григорьева</figcaption>
           </figure>
           <p class="customers__decs">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
@@ -332,11 +327,11 @@
     <div class="container">
       <h2 class="questions__title subtitle">Частые вопросы</h2>
       <ul class="questions__list">
-        <li class="questions__item questions__item_purple">Можно ли забронировать комнату оналйн?</li>
+        <li class="questions__item questions__item-purple">Можно ли забронировать комнату оналйн?</li>
         <li class="questions__item">Могут ли мне вернуть деньги за бронь?</li>
-        <li class="questions__item questions__item_purple">Какая комната самая популярная?</li>
+        <li class="questions__item questions__item-purple">Какая комната самая популярная?</li>
         <li class="questions__item">Как получить VIP карту?</li>
-        <li class="questions__item questions__item_purple">Какая комната самая популярная?</li>
+        <li class="questions__item questions__item-purple">Какая комната самая популярная?</li>
       </ul>
     </div>
   </section>
@@ -405,7 +400,7 @@
     </div>
   </div>
 
-</footer>
+</footer> 
 
 </body>
 </html>

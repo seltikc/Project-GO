@@ -12,8 +12,9 @@
 }
 
 .rest__list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   column-gap: 20px;
 }
 
@@ -48,4 +49,30 @@
   margin-top: -70px;
 }
 
+
+@media (max-width: 1024px) {
+
+    .rest {
+      padding-bottom: 10px;
+    }
+
+    .rest__title {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 36px;
+    }
+
+    .rest__text {
+      font-size: 20px;
+      line-height: 28px;
+      left: 20px;
+      top: 115px;
+    }
+
+    .rest__text-1024 {
+      width: 247px;
+      top: 90px;
+    }
+}
 

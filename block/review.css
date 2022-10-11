@@ -52,3 +52,44 @@
   line-height: 28px;
   padding: 70px 140px 20px 20px;
 }
+
+@media (max-width: 1024px) {
+
+  .review {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .customers {
+    margin-bottom: 40px;
+  }
+
+  .review__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+
+  .customers__block-img {
+    min-width: 172px;
+    min-height: 172px;
+  }
+
+  .customers__figure {
+    min-width: 172px;
+    min-height: 172px;
+  }
+
+  .customers__figcaption {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  .customers__decs {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 30px 140px 20px 20px;
+  }
+}

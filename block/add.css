@@ -58,3 +58,10 @@
 .add__span:focus:before {
   border: 1px solid var(--color-CD06FF);
 }
+
+@media (max-width: 1024px) {
+
+    .add__legend {
+    margin-bottom: 23px;
+  }
+}

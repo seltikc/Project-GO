@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .room__input {
@@ -64,6 +65,23 @@
 
 .room__radio-label {
   display: inline-block;
+}
+
+@media (max-width: 1024px) {
+
+    .room__legend {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 26px;
+    }
+
+    .room__label {
+      width: 180px;
+      height: 44px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+
 }
 
 

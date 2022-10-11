@@ -175,30 +175,97 @@
   display: block;
 }
 
+@media (max-width: 1024px) {
 
+  .game {
+    padding-bottom: 88px;
+  }
 
+  .game__title {
+    font-size: 120px;
+    line-height: 100%;
+  }
 
+  .game__text {
+    font-size: 22px;
+    line-height: 30px;
+  }
 
+  .game__text-number {
+    font-size: 80px;
+    line-height: 113px;
+  }
 
+  .game__text-hall {
+    font-size: 26px;
+    line-height: 30px;
+  }
 
+  .game__text-new {
+    font-size: 26px;
+    line-height: 30px;
+  }
 
+  .game__new-big {
+    font-size: 60px;
+    line-height: 85px;
+  }
 
+  .game__flex {
+    margin-bottom: 80px;
+  }
 
+  .game:before {
+    content: "";
+    background: url("../img/vr\ 1024.png") no-repeat;
+    position: absolute;
+    display: block;
+    width: 453px;
+    height: 520px;
+    top: 87px;
+    right: 49px;
+    z-index: 1;
+  }
 
+  .game__btn {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 17px 48px;
+  }
 
+  .game__icon {
+    position: absolute;
+    left: 440px;
+    bottom: -30px;
+  }
 
+  .game__link {
+    content: "";
+    display: block;
+    width: 67px;
+    height: 67px;
+    border: 1px solid var(--color-FFFFFF);
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+  }
 
+  .game__link-after {
+    position: absolute;
+    padding: 40px;
+    bottom: -7px;
+    right: -7px;
+  }
 
+  .game__link-after:after {
+    width: 13px;
+    left: 38px;
+  
+  }
+  
+  .game__link-after:before {
+    width: 13px;
+    left: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+}

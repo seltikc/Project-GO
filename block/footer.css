@@ -7,3 +7,30 @@
 .footer__title {
   margin-bottom: 54px;
 }
+
+@media (max-width: 1024px) {
+
+  .footer__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+
+  .contact__item {
+    margin-bottom: 7px;
+  }
+
+  .contact__item_location {
+    margin-bottom: 40px;
+  }
+
+  .contact__map {
+    display: block;
+    position: absolute;
+    width: 542px;
+    height: 274px;
+    bottom: 0px;
+    right: 45px;
+    transition: transform 0.25s linear;
+}
+}
