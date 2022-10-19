@@ -15,22 +15,19 @@
     line-height: 40px;
     margin-bottom: 26px;
   }
-
-  .contact__item {
-    margin-bottom: 7px;
-  }
-
-  .contact__item_location {
-    margin-bottom: 40px;
-  }
-
-  .contact__map {
-    display: block;
-    position: absolute;
-    width: 542px;
-    height: 274px;
-    bottom: 0px;
-    right: 45px;
-    transition: transform 0.25s linear;
 }
+
+@media (max-width: 768px) {
+
+    .footer__flex {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(1, 200px) repeat(1, 60px) repeat(1, 1fr);
+    }
+
+    .footer__title {
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+    }
 }

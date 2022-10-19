@@ -76,3 +76,40 @@
     }
 }
 
+@media (max-width: 768px) {
+
+    .rest {
+      padding-top: 100px;
+      padding-bottom: 60px;
+    }
+
+    .rest__title {
+      font-size: 24px;
+      line-height: 36px;
+      margin: 0px 85px 40px 85px;
+      text-align: center;
+    }
+
+    .rest__item:nth-child(2) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .rest__item:nth-child(2n+4) {
+      margin-top: 0;
+    }
+
+    .rest__list {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+
+    .rest__text-1024 {
+      width: 270px;
+      top: 110px;
+    }
+
+    .rest__text {
+      top: 130px;
+    }
+} 

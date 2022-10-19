@@ -92,6 +92,10 @@
       color: var(--color-1C1A1A);
     }
 
+    .questions__item:nth-child(2n):hover::after {
+      background-image: url("../img/open2.svg");
+    }
+
     .questions__item:nth-child(even):after {
       content: "";
       display: block;
@@ -100,9 +104,24 @@
       background-image: url("../img/open-purple.svg");
       transition: background-image 0.25s linear;
     }
-    
 
 }
+
+@media (max-width: 768px) {
+
+    .questions__title {
+      font-size: 24px;
+      line-height: 26px;
+      margin-bottom: 30px;
+  }
+
+    .questions__item {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+}
+
 
 
 

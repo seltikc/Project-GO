@@ -5,7 +5,7 @@
 }
 
 .room__legend {
-  text-align: center;
+  margin: 0 auto;
   margin-bottom: 40px;
   font-weight: 700;
   font-size: 24px;

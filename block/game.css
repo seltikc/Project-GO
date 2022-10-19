@@ -269,3 +269,72 @@
 }
 
 }
+
+@media(max-width: 768px) {
+  
+  .game__title {
+    font-size: 86px;
+    line-height: 100%;
+    margin-bottom: 20px;
+    
+  }
+
+  .game__text {
+    font-size: 18px;
+    line-height: 24px;  
+    margin-left: 110px;
+    margin-bottom: 50px;
+  }
+
+  .game__text-number {
+    font-size: 50px;
+    line-height: 71px;
+  }
+
+  .game__text-hall {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .game__new-big {
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .game__text-new {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .game__new {
+    padding-top: 15px;
+  }
+
+  .game__flex {
+    margin-bottom: 100px;
+  }
+
+  .game__btn {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 11px 35px;
+    text-align: center;
+  }
+
+  .game__icon {
+    display: none;
+  }
+
+  .game::before {
+    content: "";
+    background: url("../img/vr768.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    width: 409px;
+    height: 479px;
+    top: 87px;
+    right: 49px;
+    z-index: 1;
+}
+}

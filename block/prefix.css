@@ -1,6 +1,10 @@
+.prefix__legend-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
 .prefix-fieldset {
-  display: flex;
-  justify-content: space-around;
   border: none;
   padding: 0;
   margin-bottom: 60px;
@@ -15,6 +19,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  margin: 0 auto;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -82,6 +87,23 @@
     margin-bottom: 23px;
   }
 
+}
+
+@media (max-width: 768px) {
+
+    .prefix__legend {
+      margin-bottom: 30px;
+      
+    }
+
+    .prefix__legend-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(1, 1fr) minmax(200px, 190px);
+      column-gap: 50px;
+      row-gap: 30px;
+    }
+
+  
 }
 
 

@@ -36,3 +36,12 @@
 .social__link:focus {
   outline-color: var(--color-CD06FF);
 }
+
+@media (max-width: 768px) {
+  
+    .social {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+}

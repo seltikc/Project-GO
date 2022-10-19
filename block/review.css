@@ -93,3 +93,23 @@
     padding: 30px 140px 20px 20px;
   }
 }
+
+@media (max-width: 768px) {
+
+    .review__title {
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .customers__decs {
+      font-size: 16px;
+      line-height: 22px;
+      padding: 30px 100px 20px 10px;
+    }
+
+    .customers__figcaption {
+      font-size: 14px;
+      line-height: 20px;
+      margin-left: 30px
+    }
+}

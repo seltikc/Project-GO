@@ -16,16 +16,16 @@
   margin-bottom: 15px;
 }
 
-.contact__item_location {
+.contact__item-location {
   background-image: url("../img/location.svg");
   background-position: left;
 }
 
-.contact__item_phone {
+.contact__item-phone {
   background-image: url("../img/phone.svg");
 }
 
-.contact__item_email {
+.contact__item-email {
   background-image: url("../img/mail.svg");
 }
 
@@ -88,6 +88,72 @@
 .contact__map:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .contact__item {
+    margin-bottom: 7px;
+  }
+
+  .contact__item_location {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+
+  .container-img {
+    margin-bottom: 75px;
+  }
+
+  .contact__item {
+    padding-left: 0;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+
+  .contact__text {
+    padding: 0 0 0 40px;
+    background: url("../img/location.svg")no-repeat left;
+  }
+
+  .contact__phone {
+    padding: 0 0 0 40px;
+    background: url("../img/phone.svg")no-repeat left;
+  }
+
+  .contact__email {
+    padding: 0 0 0 40px;
+    background: url("../img/mail.svg")no-repeat left;
+  }
+  
+  .contact__map {
+    position: static;
+    width: 688px;
+    min-height: 337px;
+  }
+
+  .contact__map:hover {
+    transform: none;
+  }
+
+  .contact__item-location {
+    background-image: none;
+  }
+  
+  .contact__item-phone {
+    background-image: none;
+  }
+  
+  .contact__item-email {
+    background-image: none;
+  }
+
+
 }
 
 
