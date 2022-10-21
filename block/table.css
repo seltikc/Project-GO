@@ -65,3 +65,31 @@
       margin-bottom: 23px;
   }
 }
+
+@media (max-width: 560px) {
+
+    .table__legend {
+      margin-bottom: 23px;
+      font-size: 14px;
+      line-height: 18px;
+}
+
+      .table__flex {
+        font-size: 16px;
+        line-height: 18px
+      }
+
+      .table__label {
+        margin-bottom: 20px;
+      }
+
+      .table__span::before {
+        top: 0px;
+      }
+
+      .table__span::after {
+        top: 4px;
+        left: 4.5px;
+      }
+
+}

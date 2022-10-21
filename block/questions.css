@@ -120,6 +120,34 @@
       line-height: 24px;
     }
 
+    .questions__item-none {
+      display: none;
+    }
+
+}
+
+@media (max-width: 560px) {
+
+  .questions {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .questions__title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .questions__item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .questions__item {
+    padding: 15px 15px 15px 25px;
+    margin-bottom: 10px;
+  }
+
 }
 
 

@@ -103,7 +103,54 @@
       row-gap: 30px;
     }
 
-  
 }
+
+@media (max-width: 560px) {
+
+    .prefix-fieldset {
+      margin-bottom: 30px;
+    }
+
+    .prefix__legend-grid {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr) repeat(1 minmax(100px, 150px));
+      row-gap: 10px;
+    }
+
+    .prefix__flex {
+      font-size: 16px;
+      line-height: 18px;
+    }
+
+    .prefix__legend {
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      margin: 0;
+      padding: 0 20px 0 20px;
+      margin-bottom: 20px;
+    }
+
+    .prefix__legend-play {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 15px;
+    }
+
+    .prefix__label {
+      margin-bottom: 19px;
+    }
+
+    .prefix__span::before {
+      top: 0px;
+    }
+
+    .prefix__span::after {
+      top: 5px;
+    }
+}
+
+
 
 

@@ -72,6 +72,13 @@ iframe {
   margin: 0 auto;
 }
 
+@media (max-width: 560px) {
+
+  .container {
+    padding: 0 10px;
+  }
+  
+}
 .blockquote {
   text-transform: uppercase;
 }
@@ -81,5 +88,14 @@ input {
   margin: 0;
   border: 0;
   border: none;
+}
+
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
 }
 

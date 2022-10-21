@@ -108,3 +108,26 @@
   }
 
   }
+
+  @media (max-width: 560px) {
+
+    .header {
+      padding-top: 10px;
+    }
+    .header__btn {
+      display: none;
+    }
+
+    .header__img-link {
+      background: url("../img/menu-560px.svg") no-repeat;
+      width: 39px;
+      height: 20px;
+    }
+
+    .header__menu {
+      background: url("../img/logo-560px.svg") no-repeat;
+      width: 66px;
+      height: 42px;
+    }
+
+  }

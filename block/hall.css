@@ -108,6 +108,20 @@
       }
 }
 
+@media (max-width: 560px) {
+
+    .hall__title {
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 15px;
+    }
+
+    .hall__desc {
+      font-size: 26px;
+      line-height: 34px;
+    }
+}
+
 
 
 

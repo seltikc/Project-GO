@@ -34,9 +34,14 @@
       margin-bottom: 40px;
     }
 
-    .room__label {
-      width: 150px;
-      height: 38px;
-    }
 } 
+
+@media (max-width: 560px) {
+
+    .form-title {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 13px;
+    }
+}
 

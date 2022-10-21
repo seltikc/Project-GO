@@ -76,14 +76,42 @@
     }
 
     .room__label {
-      width: 180px;
-      height: 44px;
+      width: 150px;
+      height: 38px;
       font-size: 20px;
       line-height: 24px;
     }
 
 }
 
+
+@media (max-width: 560px) {
+
+      .room {
+        margin-bottom: 30px;
+      }
+
+      .room__flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 14px;    
+      }
+
+      .room__legend {
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      .room__label {
+        width: 130px;
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+}
 
 
 

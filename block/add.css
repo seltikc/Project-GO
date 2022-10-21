@@ -65,3 +65,30 @@
     margin-bottom: 23px;
   }
 }
+
+@media (max-width: 560px) {
+
+    .add__flex {
+      font-size: 16px;
+      line-height: 18px;
+    }
+
+
+    .add__legend {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .add__label {
+      margin-bottom: 23px;
+    }
+
+    .add__span::before {
+      top: 0px;
+      left: 0;
+    }
+
+    .add__span::after {
+      top: 6px;
+  }    
+}

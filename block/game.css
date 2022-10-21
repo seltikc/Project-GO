@@ -338,3 +338,72 @@
     z-index: 1;
 }
 }
+
+@media (max-width: 560px) {
+
+
+  .game {
+    padding-bottom: 20px;
+    padding-top: 0;
+  }
+
+  .game__flex {
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .game__title {
+    font-size: 35px;
+    line-height: 100%;
+    margin-bottom: 6px;
+  }
+
+  .game__text {
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .game::before {
+    background: url("../img/vr560px.png") no-repeat;
+    width: 161px;
+    height: 170px;
+    top: 52px;
+    right: 32px;
+  }
+
+  .game__new {
+    padding-top: 5px;
+  }
+
+  .game__text-number {
+    font-size: 26px;
+    line-height: 37px;
+  }
+
+  .game__text-hall {
+    font-size: 10px;
+    line-height: 11px;
+    max-width: 59px;
+  }
+
+  .game__new-big {
+    font-size: 22px;
+    line-height: 31px;
+  }
+
+  .game__text-new {
+    font-size: 10px;
+    line-height: 11px;
+    max-width: 54px;
+  }
+
+  .game__btn {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 8px 13px;
+    border-radius: 4px;
+  }
+    
+}

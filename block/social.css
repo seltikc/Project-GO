@@ -45,3 +45,16 @@
       margin-bottom: 30px;
     }
 }
+
+@media (max-width: 560px) {
+
+  .social__item{
+    width: 30px;
+    height: 30px;
+  }
+
+  .social__link {
+    width: 30px;
+    height: 30px;
+  }
+}

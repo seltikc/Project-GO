@@ -113,3 +113,26 @@
       top: 130px;
     }
 } 
+
+@media (max-width: 560px) {
+      .rest {
+        padding-top: 28px;
+        padding-bottom: 30px;
+      }
+
+      .rest__title {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0px 25px 15px 25px;
+      }
+
+      .rest__text {
+        font-size: 10px;
+        line-height: 14px;
+        top: 55px;
+      }
+
+      .rest__text-1024 {
+        max-width: 115px;
+      }
+}
