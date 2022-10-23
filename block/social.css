@@ -42,10 +42,15 @@
     .social {
       align-items: center;
       justify-content: center;
+      margin-bottom: 30px;
     }
 }
 
 @media (max-width: 560px) {
+
+  .social {
+    margin-bottom: 35px;
+  }
 
   .social__item{
     width: 31px;
