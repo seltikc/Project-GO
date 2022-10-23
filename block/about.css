@@ -160,8 +160,8 @@
       }
 
       .about__text-wrap {
-        width: 278px;
         height: auto;
+        padding: 90px 5px 5px 5px;
       }
 
       .about__text {
@@ -171,6 +171,10 @@
 
       .blockquote {
         grid-column: 1/3;
+      }
+
+      .blockquote__text {
+        margin-bottom: 15px;
       }
 
       .blockquote__text::before {
@@ -206,7 +210,7 @@
 
     .about__grid {
       grid-template-columns: repeat(1, 280px );
-      grid-template-rows: repeat(1, minmax(150px, 180px)) repeat(1, minmax(280px, 280px)) repeat(1, minmax(200px, 230px));
+      grid-template-rows: repeat(1, minmax(150px, 160px)) repeat(1, minmax(280px, 280px)) repeat(1, minmax(200px, 230px));
       align-items: center;
       justify-content: center;
       row-gap: 10px;
@@ -216,7 +220,7 @@
     .about__title {
       font-size: 14px;
       line-height: 18px;
-      margin-bottom: 15px;
+      margin-bottom: 0;
     }
 
     .about__text-wrap {
@@ -244,6 +248,7 @@
     font-size: 18px;
     line-height: 26px;
     padding: 20px 15px;
+    margin-bottom: 0;
   }
 
   .blockquote__wrap {
@@ -270,9 +275,23 @@
   }
 
 .blockquote__text::before {
+  content: "";
+  display: block;
+  background: url("../img/1“.png") no-repeat;
   width: 25px;
-  height: 36px;
-  top: 61px;
+  height: 52px;
+  top: 37px;
   right: 104px;
   }
+
+  .blockquote__text::after {
+    content: "";
+    display: block;
+    background: url("../img/1“.png") no-repeat;
+    width: 25px;
+    height: 36px;
+    top: 17px;
+    right: 104px;
+    transform: rotate(0deg);
+    }
 }

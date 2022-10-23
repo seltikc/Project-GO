@@ -84,7 +84,10 @@
   }
 
   .prefix__legend-play {
-    margin-bottom: 23px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
   }
 
 }
@@ -98,9 +101,27 @@
 
     .prefix__legend-grid {
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(1, 1fr) minmax(200px, 190px);
+      grid-template-rows: repeat(1, 1fr) minmax(180px, 170px);
       column-gap: 50px;
       row-gap: 30px;
+    }
+
+    .prefix__label {
+      padding: 10px 0 0 55px;
+    }
+
+    .prefix__span:before {
+      top: 13px;
+      left: 0;
+      width: 40px;
+      height: 40px;
+    }
+    
+    .prefix__span:after {
+      top: 23px;
+      left: 10px;
+      width: 20px;
+      height: 20px;
     }
 
 }
@@ -139,7 +160,7 @@
     }
 
     .prefix__label {
-      margin-bottom: 19px;
+      margin-bottom: 30px;
     }
 
     .prefix__span::before {
@@ -147,7 +168,10 @@
     }
 
     .prefix__span::after {
-      top: 5px;
+      top: 10px;
+      left: 10px;
+      width: 20px;
+      height: 20px;
     }
 }
 

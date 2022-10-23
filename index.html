@@ -57,7 +57,7 @@
 
   <section class="rest" id="rest">
     <div class="container">
-      <h1 class="rest__title">У нас есть все для классного отдыха с друзьями!</h1>
+      <h2 class="rest__title">У нас есть все для классного отдыха с друзьями!</h2>
       <ul class="rest__list">
         <li class="rest__item">
           <figure class="rest__content">
@@ -130,23 +130,22 @@
 
             <div class="room__radio-label">
               <input class="room__input" type="radio" name="gamer" value="`vibes" id="room1">
-              <label class="room__label" for="room1">80's vibes</label>
+              <label class="room__label" for="room1 tabindex="5"">80's vibes</label>
             </div>
 
             <div class="room__radio-label">
               <input class="room__input" type="radio" name="gamer" value="`wars" id="room2">
-              <label class="room__label" for="room2">star wars</label>
-
+              <label class="room__label" for="room2 tabindex="5"">star wars</label>
             </div>
 
             <div class="room__radio-label">
               <input class="room__input" type="radio" name="gamer" value="wild" id="room3">
-              <label class="room__label" for="room3">wild west</label>
+              <label class="room__label" for="room3 tabindex="5"">wild west</label>
             </div>
 
             <div class="room__radio-label">
               <input class="room__input" type="radio" name="gamer" value="neon" id="room4">
-              <label class="room__label" for="room4">neon style</label>
+              <label class="room__label" for="room4 tabindex="5"">neon style</label>
             </div>
 
           </div>
@@ -159,19 +158,19 @@
               <legend class="prefix__legend-play">Приставка:</legend>
               <div class="prefix__flex">
   
-                <label class="prefix__label">
+                <label class="prefix__label" tabindex="5">
                   <input class="prefix__input" type="radio" name="games" value="playstation"><span class="prefix__span">PlayStation</span>
                 </label>
   
-                <label class="prefix__label">
+                <label class="prefix__label"tabindex="5">
                   <input class="prefix__input" type="radio" name="games" value="sega"><span class="prefix__span">Sega Mega Drive</span>
                 </label>
   
-                <label class="prefix__label">
+                <label class="prefix__label"tabindex="5">
                   <input class="prefix__input" type="radio" name="games" value="x-box"><span class="prefix__span">X-box One S</span>
                 </label>
   
-                <label class="prefix__label">
+                <label class="prefix__label"tabindex="5">
                   <input class="prefix__input" type="radio" name="games" value="dendy"><span class="prefix__span">Dendy</span>
                 </label>
               </div>
@@ -181,19 +180,19 @@
             <fieldset class="table">
               <legend class="table__legend">Настольные игры:</legend>
               <div class="table__flex">
-                <label class="table__label">
+                <label class="table__label" tabindex="5">
                   <input class="table__input" type="checkbox" name="table games" value="jenda"><span class="table__span">Jenga</span>
                 </label>
   
-                <label class="table__label">
+                <label class="table__label" tabindex="5">
                   <input class="table__input" type="checkbox" name="table games" value="monopoly"><span class="table__span">Monopoly</span>
                 </label>
   
-                <label class="table__label">
+                <label class="table__label" tabindex="5">
                   <input class="table__input" type="checkbox" name="table games" value="manchi"><span class="table__span">Манчкин</span>
                 </label>
   
-                <label class="table__label">
+                <label class="table__label" tabindex="5">
                   <input class="table__input" type="checkbox" name="table games" value="alias"><span class="table__span">Alias</span>
                 </label>
               </div>
@@ -222,17 +221,17 @@
           <div class="date__grid">
               <div class="date__text1">
                 <label class="date__label" for="dates"></label>
-                <input class="date__input date__input-placeholder" type="text" name="date" id="dates" placeholder="Дата" required><span class="date__arrow"></span>
+                <input class="date__input date__input-placeholder" type="date" name="date" id="dates" placeholder="Дата" required><span class="date__arrow"></span>
                 </div>
 
               <div class="date__text2">
                 <label class="date__label" for="time"></label>
-                <input class="date__input date__input-placeholder" type="text" name="time" id="time" placeholder="Время" required><span class="date__arrow-time"></span>
+                <input class="date__input date__input-placeholder" type="time" name="time" id="time" placeholder="Время" required><span class="date__arrow-time"></span>
               </div>
 
               <div class="date__text3">
                 <label class="date__label" for="human"></label>
-                <input class="date__input date__input-human date__input-placeholder" type="number" name="col" id="human" placeholder="Сколько человек" required><span class="date__arrow date__arrow-human"></span>
+                <input class="date__input date__input-human date__input-placeholder" type="number" name="col" id="human" placeholder="Сколько человек" required><span class="date__arrow-human"></span>
               </div>
 
               <div class="date__text4">
@@ -271,7 +270,7 @@
       <div class="about__grid">
           <img class="about__img" src="img/photos.png" alt="">
           <div class="about__text-wrap">
-            <p class="about__text">Для наших гостей мы создаликонцептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+            <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
             <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
           </div>
           <blockquote class="blockquote">
@@ -307,7 +306,7 @@
             </div>
             <figcaption class="customers__figcaption">Оксана Григорьева</figcaption>
           </figure>
-          <p class="customers__decs">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
+          <p class="customers__decs">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
         </li>
 
         <li class="review__item customers">
@@ -317,7 +316,7 @@
             </div>
             <figcaption class="customers__figcaption">Никита Ященко</figcaption>
           </figure>
-          <p class="customers__decs">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса</p>
+          <p class="customers__decs">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
         </li>
       </ul>
     </div>

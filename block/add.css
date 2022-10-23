@@ -19,6 +19,7 @@
   position: relative;
   padding: 0 0 0 40px;
   cursor: pointer;
+  display: block;
 }
 
 .add__input {
@@ -34,7 +35,6 @@
   left: 0;
   width: 27px;
   height: 27px;
-  border-radius: 50%;
   background: var(--color-FFFFFF)
 }
 
@@ -45,7 +45,6 @@
   left: 6px;
   width: 16px;
   height: 16px;
-  border-radius: 50%;
   background: var(--color-440F51);
   opacity: 0;
   transition: .2s;
@@ -61,12 +60,33 @@
 
 @media (max-width: 1024px) {
 
+    .add__label {
+      padding: 10px 0 0 55px;
+    }
+    .add__span:after {
+      top: 23px;
+      left: 10px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .add__span:before {
+      top: 13px;
+      left: 0;
+      width: 40px;
+      height: 40px;
+    }
+
     .add__legend {
     margin-bottom: 23px;
   }
 }
 
 @media (max-width: 560px) {
+
+    .add {
+      margin-top: 100px;
+    }
 
     .add__flex {
       font-size: 16px;
@@ -80,7 +100,11 @@
     }
 
     .add__label {
-      margin-bottom: 23px;
+      margin-bottom: 35px;
+    }
+
+    .add__label:last-child {
+      margin-bottom: 0;
     }
 
     .add__span::before {

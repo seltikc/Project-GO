@@ -1,5 +1,5 @@
 .footer {
-  padding-bottom: 30px;
+  padding-bottom: 18px;
   padding-top: 50px;
   background: linear-gradient(#1B1A1B, #370A37);
 }
@@ -22,7 +22,7 @@
     .footer__flex {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(1, 200px) repeat(1, 60px) repeat(1, 1fr);
+      grid-template-rows: repeat(1, 105px) repeat(1, 40px) repeat(1, 1fr);
     }
 
     .footer__title {
